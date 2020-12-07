@@ -1,7 +1,7 @@
 {
   "name": "hsk-pages",
   "version": "0.1.0",
-  "description": "   static web app workflow",
+  "description": "static web app workflow",
   "keywords": [
     "hsk-pages"
   ],
@@ -20,16 +20,13 @@
     "url": "https://juejin.cn/user/2189882893286888"
   },
   "main": "lib/index.js",
+  "bin": "bin/hsk-pages.js",
   "files": [
-    "lib"
+    "lib",
+    "bin"
   ],
   "scripts": {
     "test": "standard --fix"
-  },
-  "renovate": {
-    "extends": [
-      "zce"
-    ]
   },
   "dependencies": {
     "@babel/core": "^7.12.9",
